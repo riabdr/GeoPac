@@ -20,7 +20,7 @@ struct NewToDoView: View {
             Text("Item Name: ")
                 .font(.title)
                 .bold()
-            
+                .foregroundColor(.white)
             TextField("Enter the task description...", text: $toDoItem.title, axis: .vertical)
                 .padding()
                 .background(Color(.systemGroupedBackground))
@@ -32,7 +32,7 @@ struct NewToDoView: View {
             } label: {
                 Text("Save")
                     .bold()
-                    .foregroundColor(Color.purple)
+                    .foregroundColor(Color.white)
             }
         }
         .padding()

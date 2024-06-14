@@ -9,16 +9,44 @@
 /* Begin PBXBuildFile section */
 		BD19EB352C189AE70092676A /* GeoPacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB342C189AE70092676A /* GeoPacApp.swift */; };
 		BD19EB372C189AE70092676A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB362C189AE70092676A /* ContentView.swift */; };
-		BD19EB392C189AE90092676A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD19EB382C189AE90092676A /* Assets.xcassets */; };
 		BD19EB3C2C189AE90092676A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD19EB3B2C189AE90092676A /* Preview Assets.xcassets */; };
+		BD19EB612C18CC440092676A /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB602C18CC440092676A /* login.swift */; };
+		BD19EB652C18CFAB0092676A /* mainHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB642C18CFAB0092676A /* mainHome.swift */; };
+		BD19EB672C1A388D0092676A /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB662C1A388D0092676A /* key.swift */; };
+		BD19EB692C1A3F390092676A /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB682C1A3F390092676A /* Page1.swift */; };
+		BD19EB6B2C1A3F8F0092676A /* NewYork.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EB6A2C1A3F8F0092676A /* NewYork.swift */; };
+		BD44C66E2C1B5C83005D1357 /* pack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C66D2C1B5C83005D1357 /* pack1.swift */; };
+		BD44C6702C1B5CB6005D1357 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C66F2C1B5CB6005D1357 /* NewToDoView.swift */; };
+		BD44C6722C1B5CD3005D1357 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C6712C1B5CD3005D1357 /* ToDoItem.swift */; };
+		BD44C6742C1B6C46005D1357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD44C6732C1B6C46005D1357 /* Assets.xcassets */; };
+		BD44C6762C1B71E4005D1357 /* France2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C6752C1B71E4005D1357 /* France2.swift */; };
+		BD44C6782C1B7252005D1357 /* LouvreMuseum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C6772C1B7252005D1357 /* LouvreMuseum.swift */; };
+		BD44C67A2C1B7FBE005D1357 /* newY.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C6792C1B7FBE005D1357 /* newY.swift */; };
+		BD44C67E2C1B800F005D1357 /* NiagaraFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C67D2C1B800F005D1357 /* NiagaraFalls.swift */; };
+		BD44C6802C1B802E005D1357 /* StatueOfLiberty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44C67F2C1B802E005D1357 /* StatueOfLiberty.swift */; };
+		BDE7FFAE2C1C8FEE00C74A10 /* mmm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7FFAD2C1C8FEE00C74A10 /* mmm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD19EB312C189AE70092676A /* GeoPac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD19EB342C189AE70092676A /* GeoPacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPacApp.swift; sourceTree = "<group>"; };
 		BD19EB362C189AE70092676A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BD19EB382C189AE90092676A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD19EB3B2C189AE90092676A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD19EB602C18CC440092676A /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		BD19EB642C18CFAB0092676A /* mainHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHome.swift; sourceTree = "<group>"; };
+		BD19EB662C1A388D0092676A /* key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
+		BD19EB682C1A3F390092676A /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		BD19EB6A2C1A3F8F0092676A /* NewYork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYork.swift; sourceTree = "<group>"; };
+		BD44C66D2C1B5C83005D1357 /* pack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pack1.swift; sourceTree = "<group>"; };
+		BD44C66F2C1B5CB6005D1357 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD44C6712C1B5CD3005D1357 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD44C6732C1B6C46005D1357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "GeoPac/Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
+		BD44C6752C1B71E4005D1357 /* France2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = France2.swift; sourceTree = "<group>"; };
+		BD44C6772C1B7252005D1357 /* LouvreMuseum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LouvreMuseum.swift; sourceTree = "<group>"; };
+		BD44C6792C1B7FBE005D1357 /* newY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newY.swift; sourceTree = "<group>"; };
+		BD44C67D2C1B800F005D1357 /* NiagaraFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiagaraFalls.swift; sourceTree = "<group>"; };
+		BD44C67F2C1B802E005D1357 /* StatueOfLiberty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatueOfLiberty.swift; sourceTree = "<group>"; };
+		BDE7FFAD2C1C8FEE00C74A10 /* mmm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,7 @@
 		BD19EB282C189AE70092676A = {
 			isa = PBXGroup;
 			children = (
+				BD44C6732C1B6C46005D1357 /* Assets.xcassets */,
 				BD19EB332C189AE70092676A /* GeoPac */,
 				BD19EB322C189AE70092676A /* Products */,
 			);
@@ -51,9 +80,22 @@
 		BD19EB332C189AE70092676A /* GeoPac */ = {
 			isa = PBXGroup;
 			children = (
+				BD44C66F2C1B5CB6005D1357 /* NewToDoView.swift */,
+				BD44C6712C1B5CD3005D1357 /* ToDoItem.swift */,
+				BD44C66D2C1B5C83005D1357 /* pack1.swift */,
+				BD44C67F2C1B802E005D1357 /* StatueOfLiberty.swift */,
+				BD44C67D2C1B800F005D1357 /* NiagaraFalls.swift */,
 				BD19EB342C189AE70092676A /* GeoPacApp.swift */,
 				BD19EB362C189AE70092676A /* ContentView.swift */,
-				BD19EB382C189AE90092676A /* Assets.xcassets */,
+				BD19EB642C18CFAB0092676A /* mainHome.swift */,
+				BDE7FFAD2C1C8FEE00C74A10 /* mmm.swift */,
+				BD44C6752C1B71E4005D1357 /* France2.swift */,
+				BD44C6792C1B7FBE005D1357 /* newY.swift */,
+				BD44C6772C1B7252005D1357 /* LouvreMuseum.swift */,
+				BD19EB6A2C1A3F8F0092676A /* NewYork.swift */,
+				BD19EB682C1A3F390092676A /* Page1.swift */,
+				BD19EB662C1A388D0092676A /* key.swift */,
+				BD19EB602C18CC440092676A /* login.swift */,
 				BD19EB3A2C189AE90092676A /* Preview Content */,
 			);
 			path = GeoPac;
@@ -125,8 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD44C6742C1B6C46005D1357 /* Assets.xcassets in Resources */,
 				BD19EB3C2C189AE90092676A /* Preview Assets.xcassets in Resources */,
-				BD19EB392C189AE90092676A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD44C6702C1B5CB6005D1357 /* NewToDoView.swift in Sources */,
 				BD19EB372C189AE70092676A /* ContentView.swift in Sources */,
+				BD44C6722C1B5CD3005D1357 /* ToDoItem.swift in Sources */,
+				BD19EB612C18CC440092676A /* login.swift in Sources */,
+				BD44C6762C1B71E4005D1357 /* France2.swift in Sources */,
+				BD19EB6B2C1A3F8F0092676A /* NewYork.swift in Sources */,
+				BD44C6782C1B7252005D1357 /* LouvreMuseum.swift in Sources */,
+				BD44C6802C1B802E005D1357 /* StatueOfLiberty.swift in Sources */,
+				BD19EB692C1A3F390092676A /* Page1.swift in Sources */,
 				BD19EB352C189AE70092676A /* GeoPacApp.swift in Sources */,
+				BD19EB652C18CFAB0092676A /* mainHome.swift in Sources */,
+				BDE7FFAE2C1C8FEE00C74A10 /* mmm.swift in Sources */,
+				BD44C67E2C1B800F005D1357 /* NiagaraFalls.swift in Sources */,
+				BD44C66E2C1B5C83005D1357 /* pack1.swift in Sources */,
+				BD44C67A2C1B7FBE005D1357 /* newY.swift in Sources */,
+				BD19EB672C1A388D0092676A /* key.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

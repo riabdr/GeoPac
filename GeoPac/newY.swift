@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct newY: View {
     var body: some View {
         
         NavigationStack {
@@ -21,7 +21,7 @@ struct ContentView: View {
                        
                         VStack{
                             ZStack{
-                                Image("Screenshot 2024-06-13 at 11.28.31 AM")
+                                Image("newyork2")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .ignoresSafeArea()
@@ -52,6 +52,7 @@ struct ContentView: View {
                                                                 .font(.custom("Times New Roman", fixedSize: 20))
                                                             Text("Places To Visit")
                                                                 .multilineTextAlignment(.center)
+                                                                .font(.custom("Times New Roman", fixedSize:50))
                                                             
                                                                 .padding()
                                                                 .font(.custom("SignPainter", fixedSize:50))                         .fontWeight(.light)
@@ -63,12 +64,12 @@ struct ContentView: View {
                                         HStack{
                                             
                                             Text("    Central Park    ")
-                                                .font(.title2)
+                                                //.font(.title2)
                                                 .fontWeight(.semibold)
-                                            Image("Park")
+                                            Image("CP")
                                                 .resizable(resizingMode: .stretch)
                                                 .aspectRatio(contentMode: .fit)
-                                            
+                                                .font(.custom("Times New Roman", fixedSize: 21))
                                         }
                                         
                                         HStack{
@@ -80,44 +81,51 @@ struct ContentView: View {
 //                                                Text("  Niagara Falls     ")
 //
 //                                                  .foregroundColor(Color.black)
-                                                  .font(.title2)
+                                                  //.font(.title2)
                                                   .fontWeight(.semibold)
-                                              Image("Falls")
+                                              Image("nia")
                                                   .resizable(resizingMode: .stretch)
                                                   .aspectRatio(contentMode: .fit)
+                                                  .font(.custom("Times New Roman", fixedSize: 21))
                                             }
 
                                           
                                         HStack{
                                             
                                             Text("  Times Square   ")
-                                                .font(.title2)
+                                               // .font(.title2)
                                                 .fontWeight(.semibold)
-                                            Image("Times")
+                                            Image("TS")
                                                 .resizable(resizingMode: .stretch)
                                                 .aspectRatio(contentMode: .fit)
+                                                .font(.custom("Times New Roman", fixedSize: 21))
                                         }
                                         
                                         HStack{
-                                            VStack{
-                                                
+                                            NavigationLink(destination: StatueOfLiberty()) {
+                                                Text("Statue of Liberty")
+                                                   // .font(.title2)
+                                                    .fontWeight(.semibold)
+                                                    .foregroundColor(.black)
+                                                    .font(.custom("Times New Roman", fixedSize: 21))
                                             }
-                                            Text("Statue of Liberty")
-                                                .font(.title2)
-                                                .fontWeight(.semibold)
+                                            
                                            
                                                 
-                                            Image("Statue")
+                                            Image("lib")
                                                 .resizable(resizingMode: .stretch)
                                                 .aspectRatio(contentMode: .fit)
-                                        }
                                             
-
+                                         
+                                        }
+                                        
+                                        Image ("white")
                                           
                                         }
                                        
                                         
                                     }
+                     // Image ("white")
                                 .frame(height: 630)
                                 .position(x: 180, y : 490)
                                 .padding()
